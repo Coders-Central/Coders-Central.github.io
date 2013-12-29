@@ -7,12 +7,12 @@
  border:2px solid black;
  border-radius:5px;
  margin-top:-20px;
- 
+ float:top;
 }
 
 .CODER{
   
-margin-top:-70px;
+  margin-top:-70px;
   height:60px;
   border-radius:5px;
 }
@@ -35,7 +35,7 @@ button{
  background-color:#6E6D64;
  border:2px solid black;
  border-radius:5px;
- 
+ float:bottom;
 }
 #LEFT{
   height:1028px;
