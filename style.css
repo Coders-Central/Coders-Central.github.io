@@ -149,7 +149,7 @@ div {
 	width: 97.5%;
 	margin-top: -20px;
 	height: 60px;
-	background-color: #668284;
+	background-color: #B0B0B0;
 	margin-bottom: 10px;
 }
 
@@ -199,7 +199,7 @@ a:hover {
 	margin-top: 50px;
 	width: 10%;
 	height: 400px;
-	background-color: #FF0000;
+	background-color: #B0B0B0;
 	margin-bottom: 10px;
 }
 
@@ -216,7 +216,7 @@ a:hover {
 #footer {
 	position: relative;
 	height: 50px;
-	background-color: #668284;
+	background-color: #B0B0B0;
 	clear: both;
 	font-family: Verdana, sans-serif;
 	font-size: 14px;
