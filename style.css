@@ -135,6 +135,10 @@ a:hover {
 	padding-top: 15px;
 }
 */
+body{
+	background-color:#A5F2B1;
+}
+
 div {
 	border-radius: 5px;
 }
