@@ -1,0 +1,96 @@
+/*Enter CSS Here*/
+#HEADER{
+  
+ height:100px;
+ width:1245px;
+ background-color:#6E6D64;
+ border:2px solid black;
+ border-radius:5px;
+ margin-top:-20px;
+ 
+}
+
+.CODER{
+  
+margin-top:-70px;
+  height:60px;
+  border-radius:5px;
+}
+p{
+  margin-top:-50px;
+  margin-left:550px;
+  color:white;
+}
+ul{
+  list-style-type:none;
+}
+button{
+  margin-left:1131px;
+  margin-top:;
+}
+
+#FOOTER{
+ height:35px;
+ width:1265px;
+ background-color:#6E6D64;
+ border:2px solid black;
+ border-radius:5px;
+ 
+}
+#LEFT{
+ height:1028px;
+ width:145px;
+ background-color:#6E6D64;
+ border:1px solid black;
+ border-radius:0px;
+  margin-top:20px;
+}
+#ARTICLE{
+ height:1028px;
+ width:1030px;
+ background-color:#EBEBE8;
+ border:1px solid #DCDEDE;
+ border-radius:3px;
+  float:right;
+  margin-top:-1030px;
+  border:1px solid black;
+  
+}
+body{
+  background-color:#797982;
+  }
+ul{
+  
+}
+a{
+  text-decoration:none;
+  color:blue; 
+}
+a:hover{
+  color:maroon;
+  text-decoration:underline;
+}
+
+#LIST{
+  margin-top:33px;
+}
+#HELLO{
+  margin:auto;
+}
+#Un{
+  float:left;
+}
+#Deux{
+  margin-left:23px;
+}
+#Trois{
+  margin-left:124px;
+}
+#Quatre{
+  float:right;
+  margin-right:166px;
+}
+#Chilly{
+  Margin-top:42px;
+  Margin-left:123px;
+}
