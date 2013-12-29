@@ -136,7 +136,7 @@ a:hover {
 }
 */
 body{
-	background-color:#CCFABB;
+	background-color:#BCE5F5;
 }
 
 div {
@@ -149,7 +149,7 @@ div {
 	width: 97.5%;
 	margin-top: -20px;
 	height: 60px;
-	background-color: #BCE5F5;
+	background-color: #CCFABB;
 	margin-bottom: 10px;
 }
 
@@ -199,7 +199,7 @@ a:hover {
 	margin-top: 50px;
 	width: 10%;
 	height: 400px;
-	background-color: #BCE5F5;
+	background-color: #CCFABB;
 	margin-bottom: 10px;
 }
 
@@ -216,7 +216,7 @@ a:hover {
 #footer {
 	position: relative;
 	height: 50px;
-	background-color: #BCE5F5;
+	background-color: #CCFABB;
 	clear: both;
 	font-family: Verdana, sans-serif;
 	font-size: 14px;
