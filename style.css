@@ -38,26 +38,27 @@ button{
  
 }
 #LEFT{
- height:1028px;
- width:145px;
- background-color:#6E6D64;
- border:1px solid black;
- border-radius:0px;
+  height:1028px;
+  width:145px;
+  background-color:#6E6D64;
+  border:1px solid black;
+  border-radius:0px;
   margin-top:20px;
+  float:left;
 }
 #ARTICLE{
- height:1028px;
- width:1030px;
- background-color:#EBEBE8;
- border:1px solid #DCDEDE;
- border-radius:3px;
-  float:right;
+  height:1028px;
+  width:1030px;
+  background-color:#EBEBE8;
+  border:1px solid #DCDEDE;
+  border-radius:3px;
+  float:center;
   margin-top:-1030px;
   border:1px solid black;
   
 }
 body{
-  background-color:#797982;
+  background-color:#0222F2;
   }
 ul{
   
@@ -81,6 +82,7 @@ a:hover{
   float:left;
 }
 #Deux{
+  float:left;
   margin-left:23px;
 }
 #Trois{
