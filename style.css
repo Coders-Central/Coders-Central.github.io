@@ -209,19 +209,19 @@ a:hover {
 	margin-top: 50px;
 	width: 88%;
 	height: 400px;
-	background-color: #FFFFFF;
+	background-color: #BDFFDD;
 	margin-bottom: 10px;
 }
 
 #footer {
 	position: relative;
 	height: 50px;
-	background-color: #CCFABB;
+	background-color: #BDFFDD;
 	clear: both;
 	font-family: Verdana, sans-serif;
 	font-size: 14px;
 	text-align: center;
-	color: #BDFFDD;
+	color: #FF0000;
 }
 
 #footer p {
