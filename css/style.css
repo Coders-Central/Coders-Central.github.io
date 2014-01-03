@@ -1,29 +1,29 @@
-/*Enter CSS Here*/
 body{
 	background-color:#FFDDBD;
 }
 
 div {
 	border-radius: 5px;
+  border:1px solid black;
 }
 
 #header {
 	z-index: 1;
-	position: fixed;
 	width: 97.5%;
 	margin-top: -20px;
-	height: 60px;
+	height: 80px;
 	background-color: #BDFFDD;
 	margin-bottom: 10px;
+  width:1261px;
 }
 
 #name {
-	float:left;
+  text-align:center; 
 	margin-left: 5px;
-	padding-top: 5px;
+	padding-top: 10px;
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
-	color: #ffffff;
+	color: #cccc;
 }
 
 #email{
@@ -49,8 +49,9 @@ h4 {
 	color: #FF0000;
 }
 
-li {
-	list-style-type: square;
+li{
+	list-style-type: none;
+  margin-left:10px;
 }
 
 a:hover {
@@ -62,20 +63,23 @@ a:hover {
 	float: left;
 	margin-top: 50px;
 	width: 10%;
-	height: 400px;
+	height: 700px;
 	background-color: #BDFFDD;
 	margin-bottom: 10px;
+  margin-top:-1px;
 }
 
 .right {
 	position: relative;
 	float: right;
-	margin-top: 50px;
-	width: 88%;
-	height: 400px;
+	margin-top:-1px;
+	width: 1100px;
+	height: 700px;
 	background-color: #BDFFDD;
 	margin-bottom: 10px;
+  margin-right:-1px;
 	color:black;
+  
 }
 
 #footer {
@@ -100,7 +104,7 @@ a:hover {
 }
 
 #Deux{
-  margin-left:25;
+ margin-left:25;
 }
 
 #Trois{
@@ -112,4 +116,16 @@ a:hover {
 }
 #Cinq{
   margin-left:63;
+}
+.email{
+  width:100px;
+}
+.subscribe{
+  font-size:15px;
+  margin-left:10px;
+}
+.functions{
+  margin-left:1000px;
+position:fixed;
+  margin-bottom:1000px;
 }
