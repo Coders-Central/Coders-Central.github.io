@@ -1,20 +1,20 @@
 body{
 	background-color:#FFDDBD;
+	width: 100%;
+	min-width: 100%;
 }
 
 div {
 	border-radius: 5px;
-  border:1px solid black;
+  	border:1px solid black;
 }
 
 #header {
 	z-index: 1;
-	width: 97.5%;
-	margin-top: -20px;
+	width: 96.5%;
 	height: 80px;
 	background-color: #BDFFDD;
-	margin-bottom: 10px;
-  width:1261px;
+	margin: 10px;
 }
 
 #name {
@@ -61,30 +61,32 @@ a:hover {
 .left {
 	position: relative;
 	float: left;
-	margin-top: 50px;
-	width: 10%;
-	height: 700px;
+	margin: 10px;
+	width: 15%;
+	height: auto;
 	background-color: #BDFFDD;
-	margin-bottom: 10px;
-  margin-top:-1px;
+	padding: 5px;
 }
 
 .right {
 	position: relative;
 	float: right;
-	margin-top:-1px;
-	width: 1100px;
-	height: 700px;
+
+	margin-top:10px;
+	margin-right:23px;
+	margin-bottom:10px;
+
+	width: 79%;
+	height: auto;
 	background-color: #BDFFDD;
-	margin-bottom: 10px;
-  margin-right:-1px;
 	color:black;
-  
 }
 
 #footer {
 	position: relative;
 	height: 50px;
+	width: 96.5%;
+	margin: 10px;
 	background-color: #BDFFDD;
 	clear: both;
 	font-family: Verdana, sans-serif;
