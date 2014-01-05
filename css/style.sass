@@ -1,0 +1,80 @@
+@import "compass"
+$theme: tomato
+$width: 480px
+$size: 41px
+$height: $size * 1.5
+$magcircle: $size * 0.667
+$stroke: 6px
+$bump: $height + $stroke
+ 
+body
+  background: $theme
+  font: #{$size/2}/1.4em Tienne, serif
+  color: darken($theme, 36%)
+  text-align: center
+ 
+h1
+  color: lighten($theme, 19%)
+ 
+p
+  text-align: left
+ 
+.search
+  font: #{$size}/1em Tienne, serif
+  color: darken($theme, 21%)
+  display: inline-block
+ 
+input[type="text"]
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  width: $height
+  height: $height
+ 
+  border: none
+  font: inherit
+  color: inherit
+  background: lighten($theme, 13%)
+  border-radius: $height / 2
+  &:hover
+    box-shadow: 0 0 0 $stroke lighten($theme, 14%)
+    background: lighten($theme, 14%)
+    cursor: pointer
+  &:focus,
+  &:valid
+    padding: 0 $height 0 $stroke
+    width: $width
+    border-radius: 0
+    background: lighten($theme, 17%)
+    
+    outline: none
+    box-shadow: none
+    cursor: auto
+ 
+label
+  box-sizing: border-box
+  display: inline-block
+  color: transparent
+  font-size: 0
+  height: $magcircle
+  width: $magcircle
+  border-radius: $magcircle / 2
+  border: $stroke solid $theme
+  position: relative
+  left: -$height  * 0.8
+  top: -$stroke/2
+  cursor: pointer
+  -webkit-transform: rotate(36deg)
+  -moz-transform: rotate(36deg)
+  transform: rotate(36deg)
+  &:after
+    content: ""
+    display: block
+    position: absolute
+    width: $magcircle * 0.667
+    height: $stroke
+    background: $theme
+    border-radius: 0 $stroke/2 $stroke/2 0
+    top: $magcircle / 2 - $stroke * 1.5
+    left: $magcircle - $stroke * 1.5
+  
