@@ -3,6 +3,21 @@ body{
 	margin: 10px;
 }
 
+ div {
+    border-radius: 5px;
+    border:1px solid black;
+  }
+  
+  #header {
+    z-index: 1;
+    width: 97.5%;
+    margin-top: -20px;
+    height: 80px;
+    background-color: #696969;
+    margin-bottom: 10px;
+    width:1261px;
+  }
+
 #name {
   text-align:center; 
 	margin-left: 5px;
