@@ -1,4 +1,4 @@
-//*@import "compass"
+/*@import "compass"
 $theme: tomato
 $width: 480px
 $size: 41px
@@ -78,3 +78,4 @@ label
     top: $magcircle / 2 - $stroke * 1.5
     left: $magcircle - $stroke * 1.5
   
+*/
