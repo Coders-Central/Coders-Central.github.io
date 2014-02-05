@@ -58,6 +58,9 @@ li{
 a:hover {
 	font-weight: bold;
 }
+a {
+	color:#FFFFFF;
+}
 
 .left {
 	position: relative;
