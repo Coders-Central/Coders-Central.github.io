@@ -16,6 +16,7 @@ body{
     background-color: #696969;
     margin-bottom: 10px;
     width:1261px;
+    float:center;
   }
 
 #name {
