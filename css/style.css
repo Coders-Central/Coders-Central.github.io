@@ -16,7 +16,7 @@ body{
     background-color: #696969;
     margin-bottom: 10px;
     width:1261px;
-    float:center;
+    position:center;
   }
 
 #name {
@@ -108,7 +108,6 @@ a {
 
 #Un{
   margin-left:20;
-  color:#FFCC00;
 }
 
 #Deux{
