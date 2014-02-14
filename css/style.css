@@ -74,10 +74,8 @@ a {
 .left {
 	float: left;
 	width: 10%;
-	margin-top:10px;
 	height: 500px;
 	background-color: #696969;
-	padding: 5px;
 }
 
 .right {
