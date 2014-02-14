@@ -69,7 +69,6 @@ a {
 }
 
 .left {
-	position: relative;
 	float: left;
 	width: 10%;
 	margin-top:10px;
