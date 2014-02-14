@@ -3,7 +3,7 @@
 	margin: 0 auto;
 }
 body{
-	background-color:#000000;
+	background-image:url("http://3.bp.blogspot.com/-54Fkc_wcfvE/UBMn4o7ihOI/AAAAAAAADSI/BMV7B3rKkFI/s1600/5.jpg");
 	margin: 10px;
 }
 
@@ -29,7 +29,7 @@ body{
 	padding-top: 10px;
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
-	color: #cccc;
+	color: #ccc;
 }
 
 #email{
