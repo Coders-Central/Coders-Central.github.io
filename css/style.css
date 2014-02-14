@@ -5,6 +5,8 @@
 body{
 	background-image:url("http://3.bp.blogspot.com/-54Fkc_wcfvE/UBMn4o7ihOI/AAAAAAAADSI/BMV7B3rKkFI/s1600/5.jpg");
 	background-repeat:no-repeat;
+	background-repeat:repeat-y;
+	background-color:black;
 	margin: 10px;
 }
 
