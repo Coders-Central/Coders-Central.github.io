@@ -74,6 +74,7 @@ a {
 
 .left {
 	float: left;
+	float:top;
 	width: 10%;
 	height: 500px;
 	background-color: #696969;
