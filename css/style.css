@@ -83,7 +83,7 @@ a {
 	position: relative;
 	float: right;
 	margin-top:10px;
-	margin-right:2.3%;
+	margin-right:2.6%;
 	margin-bottom:10px;
 	width:900px;
 	margin: 0 auto;
@@ -159,7 +159,7 @@ position:fixed;
   line-height: 50px;
   padding: 0 30px;
   text-decoration: none;
-  color: #333;
+  color: #696969;
 }
 .navbar li a:hover {
   background-color: #999;
