@@ -12,10 +12,9 @@ body{
 }
 
  div {
-    border-radius: 5px;
-    border:1px solid black;
+    border:1px solid #696969;
   }
- 
+
 #header {
     z-index: 1;
     width: 97.5%;
