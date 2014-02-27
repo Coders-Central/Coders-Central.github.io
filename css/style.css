@@ -12,7 +12,7 @@ body{
 }
 
  div {
-    border:1px solid #696969;
+    border:1px solid black;
   }
 
 #header {
@@ -24,9 +24,9 @@ body{
     margin-bottom: 10px;
     width:900px;
     margin: 0 auto;
-  }
+}
 
-#name {
+#title {
 	text-align:center; 
 	margin-left: 5px;
 	padding-top: 10px;
@@ -95,7 +95,7 @@ a {
 #footer {
 	position: relative;
 	height: 50px;
-	width: 96.5%;
+	width: 900px;
 	margin: 10px;
 	background-color: #696969;
 	clear: both;
