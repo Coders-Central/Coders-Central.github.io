@@ -141,3 +141,27 @@ a {
 position:fixed;
   margin-bottom:1000px;
 }
+.navbar {
+  background: #ccc;
+  overflow: hidden;
+}
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a {
+  display: block;
+  line-height: 50px;
+  padding: 0 30px;
+  text-decoration: none;
+  color: #333;
+}
+.navbar li a:hover {
+  background-color: #999;
+  color: #fff;
+}
