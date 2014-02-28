@@ -20,7 +20,7 @@ body{
     width: 97.5%;
     margin-top: -20px;
     height: 100px;
-    background-color: #696969;
+    background-color: #ccc;
     margin-bottom: 10px;
     width:900px;
     margin: 0 auto;
@@ -76,7 +76,7 @@ a {
 	float:top;
 	width: 10%;
 	height: 500px;
-	background-color: #696969;
+	background-color: #ccc;
 }
 
 .right {
@@ -88,7 +88,7 @@ a {
 	width:900px;
 	margin: 0 auto;
 	height: auto;
-	background-color: #696969;
+	background-color: #ccc;
 	color:black;
 }
 
@@ -97,7 +97,7 @@ a {
 	height: 50px;
 	width: 900px;
 	margin: 10px;
-	background-color: #696969;
+	background-color: #ccc;
 	clear: both;
 	font-family: Verdana, sans-serif;
 	font-size: 14px;
