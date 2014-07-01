@@ -129,7 +129,7 @@ a {
 }
 .functions{
   margin-left:1000px;
-position:fixed;
+	position:fixed;
   margin-bottom:1000px;
 }
 .navbar {
@@ -153,4 +153,7 @@ position:fixed;
 }
 .navbar li a:hover {
   background-color: #999;
+}
+#form{
+	font-family:Lato;
 }
