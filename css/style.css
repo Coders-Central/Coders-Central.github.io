@@ -160,8 +160,10 @@ a {
 .functions{
 	background-color:#9E9E9E;
 	border-bottom:#878787;
+	border-right:transparent;
+	border-left:transparent;
 }
 .functions:active{
 	border-bottom:#9E9E9E;
-	border-top:none;
+	border-top:transparent;
 }
