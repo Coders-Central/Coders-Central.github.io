@@ -1,2 +1,2 @@
 //Enter Java Here
-confirm("Welcome!");
+//What should we add here?
