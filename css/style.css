@@ -154,6 +154,14 @@ a {
 .navbar li a:hover {
   background-color: #999;
 }
-#form{
-	font-family:Lato;
+.form{
+  font-family:Lato;
+}
+.functions{
+	background-color:#9E9E9E;
+	border-bottom:#878787;
+}
+.functions:active{
+	border-bottom:#9E9E9E;
+	border-top:none;
 }
