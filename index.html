@@ -1,58 +1,97 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="css/style.css"></link>
-		   	<title>Coders' Central | Home</title>
-    		<script type="text/javascript" src="js/main.js"></script>
-	</head>
-	<body>
-<div id ="website">
-		<div id="header">
-			<h1 id="title">Coders' Central</h1>
-				<nav class="navbar">
-					<ul class="nav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="blog.html">Blog</a></li>
-    					<li><a href="https://github.com/Coders-Central">Projects</a></li>
-					<li><a href="contact.html">Email Us!</a></li>
-					<li><a href="forums.html">Forums</a></li>
-					<li><a href="http://www.codecademy.com/groups/html5-game-development/discussions/52803e0680ff33d8150009b1#discussion-52803e0680ff33d8150009b1">Join our Disscussion!</a></li>
-					<li><a href="https://github.com/Coders-Central/Coders-Central.github.io/wiki">Wiki</a></li>
-	</ul>
-</nav>
-
-      <nav>
-        <li><button class="functions" class="form" class="login" draggable="true">Login</button></li>
-        <li><button class="functions" class="form" draggable="true">Sign Up</button></li>
-      <nav>
-		</div>
-
-		<div class="right">
-		  <p><br><br>Hi! This is our first group website. We are all beginners in the world of coding, so please look at our website from that point of view. Sorry if our website isn't the best, but we tried and still are trying our best.</p>
-			<h4>Ways you can help</h4>
-			<ul>
-				<li>Give detailed and useful feedback</li>
-				<li>Join our disscusion on Codeacademy</li>
-				<li>Propose changes using GitHub</li>
-				<li>Report bugs and others issues</li>
-				<li>Check our wiki before contacting us</li>
-				<li>Check our website frequently for new posts and other updates</li>
-			</ul>
-		<p>Thanks! Check back often!</p>
-		</div>
-		<div id="footer">
-			<p id="Cinq">©2013-2014 </br>
-			<a id="Un"href="http://coders-central.github.io/help">Help</a>
-      			<a id="Deux"href="http://coders-central.github.io/privacy">Privacy</a>
-	      		<a id="Trois"href="http://coders-central.github.io/feedback">Feedback</a>
-      		    	<a id ="Quatre"href="http://coders-central.github.io/about/">About</a>
-		</p>
-			</div>
-</div>
-
-
-		<div id="left">
-      <p class="subscribe" class="form">Subscribe Below</p>
-      <input type="email" class="email"placeholder="Your email"><input type="submit">
-		</div>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="//fonts.googleapis.com/css?family=Roboto:400,300,200,100&subset=latin,cyrillic" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet" />
+<!-- // [start style] -->
+      <title>Coders' Central | Home</title>  
+      </head>
+<!-- // [Top Section of Page a Navigation bar could go here] -->      
+      <body>
+        <div id="headline">
+      <div class="container">
+        <header>
+          <h1>Coder's Central</h1>
+          <p>Working witht Web technology</p>
+        </header>
+        <div id="blurb">
+          <p>Hi! This is our first group website. 
+          	 Most of us are all beginners in the world of coding, 
+          	 so please look at our website from that point of view. 
+          	 Sorry if our website isn't the best, but we tried and still are trying our best.</p>
+          <p>Some of the technologies that Coder's Central use include the following: </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+			<li>JavaScript</li>
+			<li>jQuery</li>
+			<li>PHP</li>
+			<li>Ruby</li>
+          </ul>
+        </div>
+        <!--// [Could use an image or a msg form like below...
+        		Currently the form has no functionality]
+        	<img id="register" src=""/>
+        	-->
+        <form method="post" id="register">
+           <h2>Get in Touch</h2>
+           <label for="name">Name</label>
+           <input type="text" name="name" id="name" 
+              placeholder="Thomas A Anderson" required>
+           <label for="email">Email address</label>
+           <input type="email" name="email" id="email" 
+              placeholder="neo@example.com" required>
+           <label for="msg">Message</label>
+           <input type="text" name="msg" id="msg" 
+              placeholder="Looking to help" required>
+           <input type="submit" value="Sign up">
+        </form>
+        <br>
+      </div>
+    </div>
+<!-- // [First section just under the header image] -->   
+	<div id="section1">
+      <div class="container">
+        <h2>Coder's Central Projects</h2>
+        <p>Interesting projects by Coder's Central and it Contributors.</p>
+        <p>Some of the projects include:</p>
+        <ul>
+          <li>The Coder's Central Website</li>
+          <li>& CodeCademy Web Projects</li>
+        </ul>
+        <a href="http://www.codecademy.com" alt="codecademy logo"><img src="http://www.collegestartup.org/wp-content/uploads/2013/11/codecademy.jpg" style="float: right; width: 300px"></a>
+        <br>
+      </div>
+    </div>
+<!-- // [The section Section. Currently only 3 images are supported but more could be added...
+		perhaps a carousel or image slider...
+		image sare currently taken from GitHub profiles] -->   
+<div id="section2">
+      <div class="container">
+        <h2>Coder's Central Contributors</h2>
+        <p>The people Behind The Work</p>
+        <div id="images">
+            <a href="https://github.com/SindhujaD"><img src="https://avatars3.githubusercontent.com/u/5934701?s=460" alt="SindhujaD: Contributor"></a>
+            <a href="https://github.com/Solusin"><img src="https://avatars3.githubusercontent.com/u/5847089?s=460" alt="Solusin: Coder's Central Lead"></a>
+            <a href="https://github.com/M-Hc0d3"><img src="https://avatars3.githubusercontent.com/u/3343938?s=460" alt="M-Hc0d3: Contributor"></a>
+        </div>
+        <br>
+      </div>
+    </div>
+<!-- // [Third section leading small description of current project(s)] -->   
+<div id="section3">
+      <div class="container">
+        <h2>What Coder's Central Plans to Do Next?</h2>
+        <p>Looking into the future.</p>
+        <p>Currently Coder's Central contributors are focusing on polishing their coding skills though updating and adding features to this site. Other projects that follow will be posted at a later time.</p>
+      </div>
+    </div>
+<!-- // [Every Website needs a footer...
+		Perhaps the current date could be updated automatically with JavaScript/jQuery (i.e. the 2014 part)] -->   
+<div id="footer">
+      <div class="container">
+        <p>2013 - 2014 &copy  Coder's Central.</p>
+      </div>
+    </div>
 </html>   
