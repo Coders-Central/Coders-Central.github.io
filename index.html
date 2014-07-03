@@ -6,14 +6,30 @@
       <link href="//fonts.googleapis.com/css?family=Roboto:400,300,200,100&subset=latin,cyrillic" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet" />
       
-      <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-      <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+      <script type="text/javascript" src="js/main.js" defer></script>
 <!-- // [start style] -->
       <title>Coders' Central | Home</title>  
       </head>
 <!-- // [Top Section of Page a Navigation bar could go here] -->      
       <body>
-      	<nav id="nav">SignIn</nav>
+      	
+      	<div id="signIn">
+      		
+      		<nav id="nav">
+				<form method="post" id="signInForm">
+			       <label for="name">Username:</label>
+			       <input type="text" name="username" id="username" 
+			              placeholder="TAA86" required>
+			       <label for="password">Password:</label>
+			       <input type="password" name="userpassword" id="userpassword" 
+			              placeholder="******" required>
+			       <input type="submit" value="Sign In">
+			    </form>
+			</nav>
+      		
+     		<span id="signInBtn">Sign In</span>
+      	</div>
         <div id="headline">
       <div class="container">
         <header>

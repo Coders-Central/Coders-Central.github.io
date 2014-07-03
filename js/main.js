@@ -1,7 +1,9 @@
-///Add js for keeping track of current year in footer
+//Add js for keeping track of current year in footer
+
 
 $(document).ready(function(){
-	$('nav').click(function(){
-		alert("what");
+	$('nav').hide();
+	$('#signInBtn').click(function(){
+		$('nav').slideToggle('slow');
 	});
 });
