@@ -1,4 +1,4 @@
-body {
+      body {
         margin: 0;
         padding: 0;
       }
@@ -246,3 +246,11 @@ body {
   			box-shadow:         3px 3px 5px 6px rgba(159,45, 18, 0.7);
           }
         }
+      #nav{
+      	position: absolute;
+      	left: 72%;
+      	width: 80px;
+      	text-align:center;
+      	border-radius: 0% 0% 10% 10%;
+      	background-color: blue;
+      }
