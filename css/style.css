@@ -1,4 +1,4 @@
-body {
+      body {
         margin: 0;
         padding: 0;
       }
@@ -63,6 +63,12 @@ body {
         border: none;
         box-sizing: border-box;
         font-size: 18px;
+      }
+      nav input[type=submit]{
+      	background-color: hsl(8, 70%, 54%);
+        color: white;
+        border: none;
+        box-sizing: border-box;
       }
 
       #section1, #section2, #section3 {
@@ -246,3 +252,20 @@ body {
   			box-shadow:         3px 3px 5px 6px rgba(159,45, 18, 0.7);
           }
         }
+       /* Sign in button and form*/
+      #signIn{
+      	position: fixed;
+      	left: 60%;
+      	width: 170px;
+      	text-align:center;
+      	border-radius: 0% 0% 10% 10%;
+      	background-color: rgba(159,45, 18, 1);
+      }
+      nav{
+      	margin: 0 auto;
+      	width: 160px;
+      	background-color: white;
+      }
+      #signInBtn{
+      	color: white;
+      }

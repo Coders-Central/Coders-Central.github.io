@@ -1,2 +1,9 @@
-//Enter Java Here
-//What should we add here?
+//Add js for keeping track of current year in footer
+
+
+$(document).ready(function(){
+	$('nav').hide();
+	$('#signInBtn').click(function(){
+		$('nav').slideToggle('slow');
+	});
+});
