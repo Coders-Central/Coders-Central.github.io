@@ -1,12 +1,15 @@
 //Add js for keeping track of current year in footer
 
-
 $(document).ready(function(){
+	var year = new Date(); //gets the current date
 	$('nav').hide();
-	$('#signInBtn').click(function(){
-		$('nav').slideToggle('slow');
-	});
+	$('#currentYear').text(year.getFullYear()); //sets current year in footer
 });
+
+$('#signInBtn').click(function(){
+		$('nav').slideToggle('slow'); //animate signIn form
+	});
+
 
 //Database code:
 
