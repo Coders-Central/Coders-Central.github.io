@@ -1,3 +1,22 @@
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 100;
+        src: local('Roboto Thin'), local('Roboto-Thin'), url(http://themes.googleusercontent.com/static/fonts/roboto/v11/G1l_KMKj5pga7ZKths0iTfesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+      }
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Roboto Light'), local('Roboto-Light'), url(http://themes.googleusercontent.com/static/fonts/roboto/v11/Fl4y0QdOxyyTHEGMXX8kcT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+      }
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v11/Y5yuUJGDLtmYv2_3fMB4fA.woff) format('woff');
+      }
+
       body {
         margin: 0;
         padding: 0;
@@ -7,7 +26,7 @@
         color: white;
         font-family: Roboto, helvetica, arial, sans-serif;
         background-color: black;
-        background-image: url(http://3.bp.blogspot.com/-54Fkc_wcfvE/UBMn4o7ihOI/AAAAAAAADSI/BMV7B3rKkFI/s1600/5.jpg);
+        background-image: url(img/5.jpg);
         background-size: cover;
       }
 
