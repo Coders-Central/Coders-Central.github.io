@@ -290,7 +290,12 @@
       }
       #contribute{
             text-decoration:none;
-            border-bottom: 1px dashed #3B3B3B;
+            border-bottom: 1px dashed black;
             display: inline;
-            color:#3B3B3B;
+      }
+      #contribute:hover{
+            color:#2D3C69;
+      }
+      #conribute:visited{
+            color:#3D3D3D;
       }
