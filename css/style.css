@@ -288,3 +288,8 @@
       #signInBtn{
       	color: white;
       }
+      a{
+            border-bottom: 1px dashed #3B3B3B;
+            display: inline;
+            color:#3B3B3B;
+      }
