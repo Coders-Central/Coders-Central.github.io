@@ -27,18 +27,57 @@ $("#submit").click(function() {
           	alert('Logged In!');
             console.log('success');          
           },
-
           error: function(user, error) {
-            /*function error() {
-                $('input').addClass('error');
-
-                $('input').click(function(){
-                    $(this).removeClass('error');
-                });
-            };*/
-            //error();
-            console.log('failed!');
-            alert('Error!');
-          }
-        });
+                // Show the error message somewhere and let the user try again.
+                alert("Error: " + error.code + " " + error.message);
+                console.log('signup failed');
+          	}
+          });
     });
+
+$("#pop").click(function() {
+
+	var newusername = $("#newname").val();
+		newpassword = $("#newpass").val();
+		email = $("#newemail").val();
+
+	if (newusername === "") {
+        alert("Type in your new Username!");
+    }
+
+	else if (newpassword === "") {
+		alert("Type in your new Password!");
+	}
+
+	else if (email === "") {
+		alert("Type in your new Email!");
+	}
+
+	else {
+		register();
+	}
+
+	function register(){
+		
+	var newusername = $("#newname").val();
+		newpassword = $("#newpass").val();
+		email = $("#newemail").val();
+
+		var user = new Parse.User();
+            user.set("username", newusername);
+            user.set("password", newpassword);
+            user.set("email", email);
+              
+            user.signUp(null, {
+              success: function(user) {
+                alert('You have been signed up!');
+                console.log("Signed Up!!")
+              },
+              error: function(user, error) {
+                // Show the error message somewhere and let the user try again.
+                alert("Error: " + error.code + " " + error.message);
+                console.log('signup failed');
+              }
+            });
+	}
+});
