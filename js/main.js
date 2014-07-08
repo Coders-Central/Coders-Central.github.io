@@ -15,25 +15,34 @@ $('#signInBtn').click(function(){
 
 Parse.initialize("ivRkO4ESdsZ7LS03mBbux8cQseV4hlKCUC9vnNlX", "KOJOvChPgm4I06kGcb7rjsu45S9BP8oedZWheMld");
 
-$("#submit").click(function() {
+$("#submit2").click(function() {
 
-        var username = $("#username").val();
-        var password = $("#userpassword").val();
+	/* Test run
+	
+		var TestObject = Parse.Object.extend("TestObject");
+
+		var testObject = new TestObject();
+		testObject.save({foo: "bar"}).then(function(object) {
+		  alert("yay! it worked");
+		});*/
+
+        var username = $("#username0").val();
+        var password = $("#userpassword0").val();
 
         console.log(username +' '+ password);
-    
+
         Parse.User.logIn(username, password, {
-          success: function(user) {
-          	alert('Logged In!');
-            console.log('success');          
-          },
-          error: function(user, error) {
-                // Show the error message somewhere and let the user try again.
-                alert("Error: " + error.code + " " + error.message);
-                console.log('signup failed');
-          	}
-          });
-    });
+		  success: function(user) {
+		    alert('Logged In!');
+            console.log('success'); 
+		  },
+		  error: function(user, error) {
+		    // Show the error message somewhere and let the user try again.
+            alert("Error: " + error.code + " " + error.message);
+            console.log('signup failed');
+		  }
+		});
+});
 
 $("#pop").click(function() {
 
@@ -58,7 +67,7 @@ $("#pop").click(function() {
 	}
 
 	function register(){
-		
+
 	var newusername = $("#newname").val();
 		newpassword = $("#newpass").val();
 		email = $("#newemail").val();
